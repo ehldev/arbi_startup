@@ -1,0 +1,73 @@
+.service {
+    margin-top: 5rem;
+
+    .card,
+    .other_services {
+        flex-basis: 100%;
+    }
+
+    .card {
+        .btn-primary {
+            align-self: flex-end;
+            margin: 1rem 0 3rem 0;
+        }
+    }
+
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .card-title {
+            font-size: 2em;
+        }
+
+        .icon {
+            font-size: 1.5em;
+        }
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-between;
+
+        .card-link {
+            margin: 1rem .3rem;
+        }
+    }
+}
+
+.other_services {
+    padding: 0 1rem 1rem 1rem;
+
+    .subtitle,
+    .list-item {
+        margin-bottom: 1rem;
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+        margin-left: 1rem;
+    }
+}
+
+.list-item {
+    padding: 1rem;
+    background-color: $background;
+}
+
+@include rwd(md) {
+
+    .service {
+        margin-top: 10rem;
+
+        .card {
+            flex-basis: 70%;
+        }
+
+        .other_services {
+            flex-basis: 30%;
+
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.subtitle {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 1em;
+    color: $dark_secondary;
+}
+
+.icon {
+    display: inline-block;
+    color: $primary;
+}
+
+.sweetbox {
+    z-index: 100;
+}

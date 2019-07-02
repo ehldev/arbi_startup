@@ -1,0 +1,20 @@
+/* Colors */
+
+$primary: #2DD881;
+$dark: #282D31;
+$dark_secondary: #4F5356;
+$background: #FAFAFC;
+$white: #fff;
+
+/* Fonts */
+
+$main_font: 'Roboto',
+sans-serif;
+
+/* Breakpoints */
+
+$breakpoints : (s : 0, // Todos los tamaños
+    md : 40em, // ~ 640px
+    lg : 64em, // ~ 1024px
+    xl : 84em // ~1350px
+) !default;

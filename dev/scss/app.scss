@@ -1,1 +1,19 @@
-@import 'config/main'
+@import 'config/variables';
+@import 'config/main';
+@import 'config/utilities';
+@import 'mixins/rwd';
+/* Pages */
+@import 'pages/index';
+@import 'pages/service';
+/* Components */
+@import 'components/buttons';
+@import 'components/cards';
+/* Sections */
+@import 'sections/header';
+@import 'sections/hero';
+@import 'sections/about_us';
+@import 'sections/services';
+@import 'sections/projects';
+@import 'sections/testimonies';
+@import 'sections/contact';
+@import 'sections/footer';

@@ -1,0 +1,8 @@
+mixin service(title, iconClass, url)
+    article.card
+        span.icon
+            i(aria-hidden="true", class=iconClass)
+        h3.card-title= title
+        p.description
+            block
+        a(href=url).card-link Leer más

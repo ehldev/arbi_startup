@@ -1,4 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-	background-color: green;
-	display: flex;
+    font-family: $main_font;
+    background-color: $background;
+    color: $dark;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }

@@ -1,0 +1,21 @@
+header#header.header
+    .container
+        .logo-container
+            img(src="images/logo.png", alt="Logotipo").logo-img
+            span.logo-text Arbi
+        .hamburger-container
+            button(type="button")#hamburger.hamburger.hamburger--spring
+                span.hamburger-box
+                    span.hamburger-inner
+        nav#navbar.nav
+            ul.menu
+                li.menu-item
+                    a(href="index.html#hero", onclick="$('#hero').animatescroll({padding: 100});").menu-link Inicio
+                li.menu-item
+                    a(href="index.html#about-us", onclick="$('#about-us').animatescroll({padding: 100});").menu-link Sobre nosotros
+                li.menu-item
+                    a(href="index.html#services", onclick="$('#services').animatescroll({padding: 100});").menu-link Servicios
+                li.menu-item
+                    a(href="index.html#projects", onclick="$('#projects').animatescroll({padding: 100});").menu-link Portafolio
+                li.menu-item
+                    a(href="index.html#contact", onclick="$('#contact').animatescroll({padding: 100});").btn-primary CONTACTO

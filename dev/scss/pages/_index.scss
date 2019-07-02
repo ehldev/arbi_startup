@@ -1,0 +1,22 @@
+.about-us,
+.contact,
+.footer,
+.hero,
+.projects,
+.services,
+.testimonies {
+    margin-top: 5rem;
+}
+
+@include rwd(xl) {
+
+    .about-us,
+    .contact,
+    .footer,
+    .hero,
+    .projects,
+    .services,
+    .testimonies {
+        padding: 6rem 0;
+    }
+}

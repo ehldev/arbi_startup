@@ -1,0 +1,32 @@
+.projects {
+    .subtitle {
+        margin-bottom: 3rem;
+    }
+}
+
+.projects-list {
+    flex-basis: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 1em;
+
+    .card {
+        text-align: center;
+    }
+}
+
+.sweetbox-small-img {
+    opacity: .8;
+
+    &:hover {
+        opacity: 1;
+        cursor: pointer;
+        transition: opacity 1s;
+    }
+}
+
+@include rwd(lg) {
+    .projects {
+        margin-top: 10rem;
+    }
+}

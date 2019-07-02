@@ -1,0 +1,12 @@
+section#contact.contact
+    .container
+        .contact-img
+            img(src="images/contact-img.png", alt="Imagen de contacto")
+        .contact-form.card
+            h2.subtitle Contacto
+            p.description ¿Alguna consulta? No dude en contactarnos.
+            form.form
+                input(type="text", placeholder="Nombre completo", required).form-input
+                input(type="email", placeholder="Correo electrónico", required).form-input
+                textarea(cols="30", rows="3", placeholder="Mensaje", required).form-tarea
+                input(type="submit").btn-primary

@@ -1,0 +1,17 @@
+include ../mixins/about_detail.pug
+
+section#about-us.about-us
+    .container
+        .about-details
+            +about_detail('5000', 'Clientes satisfechos')
+                <i class="fas fa-handshake" aria-hidden="true"></i>
+            +about_detail('10 años', 'De experiencia en productos digitales')
+                <i class="fas fa-laptop-code" aria-hidden="true"></i>
+            +about_detail('Trabajo', 'Ágil y eficiente')
+                <i class="fas fa-rocket" aria-hidden="true"></i>
+            +about_detail('Soporte', 'Dedicado 24/7')
+                <i class="fas fa-headset" aria-hidden="true"></i>
+        .about-description
+            h2.subtitle Conoce Arbi
+            p.description Arbi es una Agencia Digital especialista en Diseño de Páginas Web y Servicios de Marketing Digital para empresas que quieran despegar, crecer y consolidarse en Internet.
+            a(href="#").btn-primary Conocer servicios

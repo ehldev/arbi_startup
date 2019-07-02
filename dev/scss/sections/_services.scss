@@ -1,0 +1,39 @@
+.services {
+    .subtitle {
+        flex-basis: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+.services-list {
+    flex-basis: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 1em;
+
+    .icon {
+        font-size: 2em;
+        margin-left: .3rem;
+        transition: transform .8s ease-in-out;
+        align-self: flex-start;
+    }
+}
+
+.card {
+
+    &:hover {
+        .icon {
+            transform: rotate(360deg);
+        }
+    }
+
+    .description {
+        margin-bottom: 1rem;
+    }
+}
+
+@include rwd(lg) {
+    .services {
+        margin-top: 10rem;
+    }
+}

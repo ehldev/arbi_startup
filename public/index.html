@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Gulpfile</title><link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"/>
+    <link rel="stylesheet" href="css/sweetbox.min.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="logo-container"><img class="logo-img" src="images/logo.png" alt="Logotipo"/><span class="logo-text">Arbi</span></div>
+        <div class="hamburger-container">
+          <button class="hamburger hamburger--spring" type="button" id="hamburger"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+        </div>
+        <nav class="nav" id="navbar">
+          <ul class="menu">
+            <li class="menu-item"><a class="menu-link" href="index.html#hero" onclick="$('#hero').animatescroll({padding: 100});">Inicio</a></li>
+            <li class="menu-item"><a class="menu-link" href="index.html#about-us" onclick="$('#about-us').animatescroll({padding: 100});">Sobre nosotros</a></li>
+            <li class="menu-item"><a class="menu-link" href="index.html#services" onclick="$('#services').animatescroll({padding: 100});">Servicios</a></li>
+            <li class="menu-item"><a class="menu-link" href="index.html#projects" onclick="$('#projects').animatescroll({padding: 100});">Portafolio</a></li>
+            <li class="menu-item"><a class="btn-primary" href="index.html#contact" onclick="$('#contact').animatescroll({padding: 100});">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-texts">
+          <h2 class="subtitle">Posicionamos tu marca en Internet</h2>
+          <p class="description">Analizamos, diseñamos y llevamos adelante proyectos web modernos.</p><a class="btn-primary" href="#">Más información</a>
+        </div>
+        <div class="hero-container-img"><img class="hero-img" src="images/hero-img.png" alt="Hero image"/></div>
+      </div>
+    </section>
+    <section class="about-us" id="about-us">
+      <div class="container">
+        <div class="about-details">
+              <div class="about-detail"><span class="icon"><i class="fas fa-handshake" aria-hidden="true"></i></span>
+                <h3 class="subtitle">5000</h3>
+                <p class="description">Clientes satisfechos</p>
+              </div>
+              <div class="about-detail"><span class="icon"><i class="fas fa-laptop-code" aria-hidden="true"></i></span>
+                <h3 class="subtitle">10 años</h3>
+                <p class="description">De experiencia en productos digitales</p>
+              </div>
+              <div class="about-detail"><span class="icon"><i class="fas fa-rocket" aria-hidden="true"></i></span>
+                <h3 class="subtitle">Trabajo</h3>
+                <p class="description">Ágil y eficiente</p>
+              </div>
+              <div class="about-detail"><span class="icon"><i class="fas fa-headset" aria-hidden="true"></i></span>
+                <h3 class="subtitle">Soporte</h3>
+                <p class="description">Dedicado 24/7</p>
+              </div>
+        </div>
+        <div class="about-description">
+          <h2 class="subtitle">Conoce Arbi</h2>
+          <p class="description">Arbi es una Agencia Digital especialista en Diseño de Páginas Web y Servicios de Marketing Digital para empresas que quieran despegar, crecer y consolidarse en Internet.</p><a class="btn-primary" href="#">Conocer servicios</a>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="subtitle">Brindamos servicios creativos</h2>
+        <div class="services-list">
+              <article class="card"><span class="icon"><i class="fas fa-paint-brush" aria-hidden="true"></i></span>
+                <h3 class="card-title">Diseño web</h3>
+                <p class="description"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi.</span>
+                </p><a class="card-link" href="service.html">Leer más</a>
+              </article>
+              <article class="card"><span class="icon"><i class="fas fa-code" aria-hidden="true"></i></span>
+                <h3 class="card-title">Desarrollo web</h3>
+                <p class="description"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi.</span>
+                </p><a class="card-link" href="#">Leer más</a>
+              </article>
+              <article class="card"><span class="icon"><i class="fas fa-chart-pie" aria-hidden="true"></i></span>
+                <h3 class="card-title">Marketing digital</h3>
+                <p class="description"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi.</span>
+                </p><a class="card-link" href="#">Leer más</a>
+              </article>
+              <article class="card"><span class="icon"><i class="fas fa-chart-line" aria-hidden="true"></i></span>
+                <h3 class="card-title">Pocisionamiento en buscadores - Seo</h3>
+                <p class="description"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi.</span>
+                </p><a class="card-link" href="#">Leer más</a>
+              </article>
+              <article class="card"><span class="icon"><i class="fas fa-pencil-ruler" aria-hidden="true"></i></span>
+                <h3 class="card-title">Diseño gráfico</h3>
+                <p class="description"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi.</span>
+                </p><a class="card-link" href="#">Leer más</a>
+              </article>
+              <article class="card"><span class="icon"><i class="fas fa-tape" aria-hidden="true"></i></span>
+                <h3 class="card-title">Edición y producción de video</h3>
+                <p class="description"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi.</span>
+                </p><a class="card-link" href="#">Leer más</a>
+              </article>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="subtitle">Proyectos desarrollados</h2>
+        <div class="projects-list" id="projects-list">
+              <article class="card sweetbox-item"><img class="sweetbox-small-img" src="https://camptecnologico.com/wp-content/uploads/2014/08/Taller-edicion-de-video-2-e1407230742386.jpg" alt="Project image"/><img class="sweetbox-large-img" src="https://camptecnologico.com/wp-content/uploads/2014/08/Taller-edicion-de-video-2-e1407230742386.jpg" alt="Project image"/>
+                <p class="description sweetbox-description-img">Proyecto video profesional</p>
+              </article>
+              <article class="card sweetbox-item"><img class="sweetbox-small-img" src="https://hodgeman.co.nz/wp-content/uploads/responsive_lakelandqueen.png" alt="Project image"/><img class="sweetbox-large-img" src="https://hodgeman.co.nz/wp-content/uploads/responsive_lakelandqueen.png" alt="Project image"/>
+                <p class="description sweetbox-description-img">Proyecto responsive web design</p>
+              </article>
+              <article class="card sweetbox-item"><img class="sweetbox-small-img" src="https://www.trecebits.com/wp-content/uploads/2018/06/marketing-digital.jpg" alt="Project image"/><img class="sweetbox-large-img" src="https://www.trecebits.com/wp-content/uploads/2018/06/marketing-digital.jpg" alt="Project image"/>
+                <p class="description sweetbox-description-img">Proyecto marketing</p>
+              </article>
+              <article class="card sweetbox-item"><img class="sweetbox-small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRytIRY50wu9WOLLh3AvDzZg7PX1D05D1iwkYMxy92MzaPhc40iVg" alt="Project image"/><img class="sweetbox-large-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRytIRY50wu9WOLLh3AvDzZg7PX1D05D1iwkYMxy92MzaPhc40iVg" alt="Project image"/>
+                <p class="description sweetbox-description-img">Proyecto diseño web</p>
+              </article>
+              <article class="card sweetbox-item"><img class="sweetbox-small-img" src="https://cdn-images-1.medium.com/max/2400/1*qF8LfAwUhl57g9T0BVvVdg.jpeg" alt="Project image"/><img class="sweetbox-large-img" src="https://cdn-images-1.medium.com/max/2400/1*qF8LfAwUhl57g9T0BVvVdg.jpeg" alt="Project image"/>
+                <p class="description sweetbox-description-img">Proyecto web</p>
+              </article>
+              <article class="card sweetbox-item"><img class="sweetbox-small-img" src="https://files.paredro.com/uploads/2018/08/Que%CC%81-es-disen%CC%83o-grafico-730x365.jpg" alt="Project image"/><img class="sweetbox-large-img" src="https://files.paredro.com/uploads/2018/08/Que%CC%81-es-disen%CC%83o-grafico-730x365.jpg" alt="Project image"/>
+                <p class="description sweetbox-description-img">Proyecto diseño gráfico</p>
+              </article>
+        </div>
+      </div>
+    </section>
+    <div class="testimonies">
+      <div class="container">
+        <h2 class="subtitle">Testimonios</h2>
+        <div class="testimonial_list">
+          <div class="card"><span class="icon"><i class="fas fa-quote-right" aria-hidden="true"></i></span>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ducimus ab ut esse, dolor reprehenderit necessitatibus debitis enim, voluptas provident eos! Porro facere quibusdam doloribus illo iure!</p>
+            <div class="line"></div>
+            <cite class="card-title">Slack</cite>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fas fa-quote-right" aria-hidden="true"></i></div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ducimus ab ut esse, dolor reprehenderit necessitatibus debitis enim, voluptas provident eos! Porro facere</p>
+            <div class="line"></div>
+            <cite class="card-title">Dropbox</cite>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fas fa-quote-right" aria-hidden="true"></i></div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ducimus ab ut esse</p>
+            <div class="line"></div>
+            <cite class="card-title">Github</cite>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-img"><img src="images/contact-img.png" alt="Imagen de contacto"/></div>
+        <div class="contact-form card">
+          <h2 class="subtitle">Contacto</h2>
+          <p class="description">¿Alguna consulta? No dude en contactarnos.</p>
+          <form class="form">
+            <input class="form-input" type="text" placeholder="Nombre completo" required="required"/>
+            <input class="form-input" type="email" placeholder="Correo electrónico" required="required"/>
+            <textarea class="form-tarea" cols="30" rows="3" placeholder="Mensaje" required="required"></textarea>
+            <input class="btn-primary" type="submit"/>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="container">
+        <div class="arbi_info">
+          <div class="logo-container"><img class="logo-img" src="images/logo.png" alt="Logotipo"/><span class="logo-text">Arbi</span></div>
+          <p class="description">Analizamos, diseñamos y llevamos adelante proyectos web modernos.</p>
+          <div class="social-networks"><a class="icon" href=""><i class="fab fa-facebook-square"></i></a><a class="icon" href=""><i class="fab fa-twitter-square"></i></a><a class="icon" href=""><i class="fab fa-instagram"></i></a></div>
+        </div>
+        <div class="line"></div>
+        <div class="footer-services">
+          <h3 class="subtitle">Servicios</h3>
+          <ul class="services_list">
+            <li class="menu-item"><a class="menu-link" href="#">Diseño web</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Desarrollo web</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Marketing digital</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Seo</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Diseño gráfico</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Edición y producción de video</a></li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h3 class="subtitle">Suscríbase a nuestro boletín</h3>
+          <p class="description">Reciba las últimas noticias y publicaciones de Arbi en su correo electrónico.</p>
+          <form class="form-newsletter" action="">
+            <input class="form-input" type="email" placeholder="Correo electrónico" required="required"/>
+            <input class="btn-primary" type="submit" value="Enviar"/>
+          </form>
+        </div>
+        <div class="line"></div>
+        <div class="footer-contact">
+          <h3 class="subtitle">Contacto</h3>
+          <p class="contact-info"><span class="icon"><i class="fas fa-phone" aria-hidden="true"></i></span><span class="phone">924 367 676</span></p>
+          <p class="contact-info"><span class="icon"><i class="fas fa-envelope-open" aria-hidden="true"></i></span><span class="email">dev.erick95@gmail.com</span></p>
+        </div>
+      </div>
+    </div><script src="https://kit.fontawesome.com/3bd84f9f96.js"></script>
+    <script src="js/sweetbox.min.js"></script>
+    <script src="js/app.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+  </body>
+</html>
